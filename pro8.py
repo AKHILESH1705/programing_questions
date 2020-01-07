@@ -1,0 +1,11 @@
+"""8. Write a Python program to display the first and last colors from the following list.
+color_list = ["Red","Green","White" ,"Black"]"""
+# correct but informal way 
+list_item=["red","green","white","black"]
+print(list_item[0],list_item[-1])
+
+
+# formal way 
+
+color_list = ["Red","Green","White" ,"Black"]
+print( "%s %s"%(color_list[0],color_list[-1]))
